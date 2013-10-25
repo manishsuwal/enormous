@@ -1,0 +1,19 @@
+body#tinymce.wp-editor { 
+color: #333333;
+font-size: 16px;
+font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+margin-bottom: 1.5em;
+line-height: 1.5em;
+}
+
+body#tinymce.wp-editor a {
+    color: #333333;
+}
+
+body#tinymce.wp-fullscreen-editor { 
+color: #333333;
+font-size: 16px;
+font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+margin-bottom: 1.5em;
+line-height: 1.5em;
+}
