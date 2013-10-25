@@ -427,7 +427,6 @@ a:active {
 .site-title {
 	font-size: 45px;
 	font-size: 4.5rem;
-	font-style: italic;
 }
 .site-description {
 	font-size: 13px;
@@ -885,3 +884,4 @@ p.nocomments {
 img.wp-post-image {
 	display:inline-block;
 }
+
