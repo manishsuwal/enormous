@@ -79,6 +79,18 @@ function enormous_setup() {
 	 * Enable support for Post Formats
 	 */
 	add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'quote', 'link' ) );
+
+	/**
+	* Enable support for Custom Header
+	*/
+	$args = array(
+	'flex-width'    => true,
+	'width'         => 1600,
+	'flex-height'    => true,
+	'height'        => 350,
+	);
+	add_theme_support( 'custom-header', $args );
+
 }
 endif; // enormous_setup
 add_action( 'after_setup_theme', 'enormous_setup' );
@@ -121,7 +133,7 @@ add_action( 'wp_enqueue_scripts', 'enormous_scripts' );
 /**
  * Implement the Custom Header feature
  */
-//require( get_template_directory() . '/inc/custom-header.php' );
+require( get_template_directory() . '/inc/custom-header.php' );
 
 
 //To link all Post Thumbnails on your website to the Post Permalink
