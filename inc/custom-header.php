@@ -103,6 +103,7 @@ function enormous_header_style() {
 	// If we get this far, we have custom styles. Let's do this.
 	?>
 	<style type="text/css">
+
 	<?php
 		// Has the text been hidden?
 		if ( 'blank' == get_header_textcolor() ) :
@@ -120,7 +121,12 @@ function enormous_header_style() {
 		.site-title a,
 		.site-description {
 			color: #<?php echo get_header_textcolor(); ?> !important;
+			color: #e9e0d1;
+			font-weight: bold;
 		}
+
+
+	}
 	<?php endif; ?>
 	</style>
 	<?php
@@ -145,10 +151,14 @@ function enormous_admin_header_style() {
 	#desc {
 	}
 	#headimg h1 {
+		font-size: 3rem;
+		font-family: Georgia, 'Times New Roman', serif;
 	}
 	#headimg h1 a {
 	}
 	#desc {
+		font-weight: bold;
+		margin: -8px 0 20px 0;
 	}
 	#headimg img {
 	}
