@@ -81,6 +81,11 @@ function enormous_setup() {
 	add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'quote', 'link' ) );
 
 	/**
+	 * Enable support for Editor Style
+	 */
+	add_editor_style('editor-style.css');
+
+	/**
 	* Enable support for Custom Header
 	*/
 	$args = array(
@@ -145,5 +150,3 @@ function my_post_image_html( $html, $post_id, $post_image_id ) {
   return $html;
 
 }
-
-add_editor_style('editor-style.css');
