@@ -7,9 +7,9 @@ Description: The enormous theme is a clean, elegant, responsive, simple, and min
 Version: 1.1
 License: GNU General Public License
 License URI: license.txt
-Tags: purple, one-column, two-columns, right-sidebar, flexible-width, custom-background, custom-menu, custom-header, featured-images, flexible-header, microformats, post-formats, rtl-language-support, threaded-comments, translation-ready
+Tags: purple, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-background, custom-menu, custom-header, featured-images, flexible-header, microformats, post-formats, rtl-language-support, threaded-comments, translation-ready
 This theme, like WordPress, is licensed under the GPL.
-This theme is a derivative of _S themes (http://underscores.me).  
+This theme is a derivative of _S themes (http://underscores.me).
 
 
 /* =Reset
@@ -92,7 +92,7 @@ button,
 input,
 select,
 textarea {
-	color: #6b6252;	
+	color: #6b6252;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
@@ -431,7 +431,7 @@ a:active {
 }
 .site-description {
 	font-size: 13px;
-	font-size: 1.3rem;	
+	font-size: 1.3rem;
 }
 .site-title a,
 .site-description {
