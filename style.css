@@ -606,6 +606,14 @@ body.archive .page-title {
 	padding-left: 1em;
 }
 
+.format-aside .entry-content{
+   font-size: 1.3em;
+}
+
+.format-aside .entry-header{
+   display: none;
+}
+
 
 /* =Media
 ----------------------------------------------- */
